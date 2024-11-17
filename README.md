@@ -8,7 +8,7 @@ Please thoroughly review and test any smart contract in this repository before d
 ## Transaction Fee / [TransferFee.sol](https://github.com/cosmosresident/Smartcontracts/blob/main/TransferFee.sol)
 When a user sends funds to another recipient via this contract, the contract will automatically deduct 5% and send it to the designated fee recipient.
 
-### Features:
+#### Features:
 - feeRecipient: This address will receive the 5% fee.
 - feePercent: The fee percentage, is set to 5%.
 - transferWithFee(): This function is used to handle transactions. It calculates the fee (5%), transfers the fee to the feeRecipient, and then sends the remaining amount to the recipient.
