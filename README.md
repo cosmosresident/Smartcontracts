@@ -5,7 +5,7 @@ A collection of Solidity smart contracts designed to interact with blockchain sy
 ⚠️ Disclaimer
 Please thoroughly review and test any smart contract in this repository before deploying it on any network. These contracts are provided as-is, and I cannot be held responsible for any potential asset loss or unintended consequences.
 
-## Transaction Fee / [TransferFee.sol](https://github.com/cosmosresident/Smartcontracts/blob/main/TransferFee.sol)
+## Transaction Fee / [Transfer_Fee.sol](https://github.com/cosmosresident/Smartcontracts/blob/main/Transfer_Fee.sol)
 When a user sends funds to another recipient via this contract, the contract will automatically deduct 5% and send it to the designated fee recipient.
 
 #### Features:
