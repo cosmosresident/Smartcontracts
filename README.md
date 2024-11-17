@@ -13,3 +13,11 @@ When a user sends funds to another recipient via this contract, the contract wil
 - feePercent: The fee percentage, is set to 5%.
 - transferWithFee(): This function is used to handle transactions. It calculates the fee (5%), transfers the fee to the feeRecipient, and then sends the remaining amount to the recipient.
 - receive(): The fallback function ensures the contract can accept Ether.
+
+## Royalty Payment System / [Royalty_Payment_System.sol](https://github.com/cosmosresident/Smartcontracts/blob/main/Royalty_Payment_System.sol)
+A system for distributing royalties to multiple contributors automatically.
+
+#### Features:
+- Royalties are split proportionally among contributors.
+- Payments are triggered upon each sale or transaction involving the asset.
+- Works for digital content like NFTs or music.
